@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Placeholder french fine Pose d'Aura">
+  <defs>
+    <radialGradient id="glow" cx="54%" cy="34%" r="56%">
+      <stop offset="0%" stop-color="#fffaf4" stop-opacity=".38"/>
+      <stop offset="58%" stop-color="#e1d8cf" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#0d0c0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2d2824"/>
+      <stop offset="52%" stop-color="#171412"/>
+      <stop offset="100%" stop-color="#0d0c0b"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0d4c2"/>
+      <stop offset="100%" stop-color="#cda895"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="486" cy="398" r="420" fill="url(#glow)"/>
+  <g transform="translate(214 168)">
+    <rect x="138" y="72" width="66" height="438" rx="33" fill="url(#skin)"/>
+    <rect x="224" y="34" width="70" height="488" rx="35" fill="url(#skin)"/>
+    <rect x="314" y="78" width="66" height="444" rx="33" fill="url(#skin)"/>
+    <path d="M151 100c16-12 35-12 51 0" stroke="#fffaf4" stroke-width="16" stroke-linecap="round"/>
+    <path d="M238 64c18-13 38-13 56 0" stroke="#fffaf4" stroke-width="16" stroke-linecap="round"/>
+    <path d="M327 106c16-12 35-12 51 0" stroke="#fffaf4" stroke-width="16" stroke-linecap="round"/>
+    <path d="M70 560c88-42 380-43 468 0" stroke="#c7aa79" stroke-opacity=".48" stroke-width="6"/>
+  </g>
+  <path d="M64 162h158" stroke="#e1d8cf" stroke-opacity=".45"/>
+  <text x="64" y="948" fill="#e1d8cf" font-family="Arial, sans-serif" font-size="24" letter-spacing="0">POSE 02</text>
+  <text x="64" y="1002" fill="#fffaf4" font-family="Georgia, serif" font-size="54" font-style="italic">French fine</text>
+</svg>

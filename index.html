@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pose d’Aura | Manucure autour de Colmar</title>
+    <meta
+      name="description"
+      content="Pose d’Aura propose des manucures raffinées autour de Colmar, à domicile ou dans un cadre privé."
+    >
+    <meta property="og:title" content="Pose d’Aura | Manucure autour de Colmar">
+    <meta
+      property="og:description"
+      content="Manucures élégantes, naturelles ou travaillées autour de Colmar."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/og-pose-aura.svg">
+    <meta name="theme-color" content="#e1d8cf">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    >
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <div class="nav-inner">
+        <a class="brand" href="#accueil" aria-label="Retour à l’accueil">Pose d’Aura</a>
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="#accueil">Accueil</a>
+          <a href="#galerie">Galerie</a>
+          <a href="#tarifs">Tarifs</a>
+          <a href="#reservation">Réserver</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <h1 id="hero-title">Pose d’Aura</h1>
+          <p class="hero-subtitle">L’élégance jusqu’au bout des doigts.</p>
+          <p class="hero-text">
+            Manucures raffinées autour de Colmar, réalisées avec soin à domicile
+            ou dans un cadre privé.
+          </p>
+          <div class="hero-actions" aria-label="Actions principales">
+            <a class="button button-primary" href="#reservation">Prendre rendez-vous</a>
+            <a class="button button-secondary" href="#galerie">Voir la galerie</a>
+          </div>
+        </div>
+
+        <div class="showcase-stage reveal" data-showcase>
+          <span class="stage-shade" aria-hidden="true"></span>
+          <span class="scene-spotlight" aria-hidden="true"></span>
+
+          <button
+            class="showcase-card showcase-card-booking"
+            type="button"
+            data-target="#reservation"
+            aria-describedby="booking-description"
+          >
+            <span class="object-wrap calendar-object" aria-hidden="true">
+              <span class="calendar-top"></span>
+              <span class="calendar-ring calendar-ring-left"></span>
+              <span class="calendar-ring calendar-ring-right"></span>
+              <span class="calendar-line calendar-line-one"></span>
+              <span class="calendar-line calendar-line-two"></span>
+              <span class="calendar-dot"></span>
+            </span>
+            <span class="card-content">
+              <span class="card-name">Réserver</span>
+              <span class="card-hover-title">Réserver un créneau</span>
+              <span class="card-description" id="booking-description">
+                Choisissez votre moment et contactez-moi directement pour valider
+                votre rendez-vous.
+              </span>
+            </span>
+          </button>
+
+          <button
+            class="showcase-card showcase-card-gallery is-featured"
+            type="button"
+            data-target="#galerie"
+            aria-describedby="gallery-description"
+          >
+            <span class="object-wrap hero-photo-object" aria-hidden="true">
+              <img src="assets/media/hero/hero-gallery-nails.jpg" alt="">
+              <span class="hero-photo-frame"></span>
+              <span class="hero-photo-shine"></span>
+            </span>
+            <span class="card-content">
+              <span class="card-name">Galerie</span>
+              <span class="card-hover-title">Découvrir les poses</span>
+              <span class="card-description" id="gallery-description">
+                Inspirez-vous des dernières créations Pose d’Aura.
+              </span>
+            </span>
+          </button>
+
+          <button
+            class="showcase-card showcase-card-pricing"
+            type="button"
+            data-target="#tarifs"
+            aria-describedby="pricing-description"
+          >
+            <span class="object-wrap polish-object" aria-hidden="true">
+              <span class="bottle-cap"></span>
+              <span class="bottle-neck"></span>
+              <span class="bottle-body"></span>
+              <span class="bottle-shine"></span>
+            </span>
+            <span class="card-content">
+              <span class="card-name">Tarifs</span>
+              <span class="card-hover-title">Voir les prestations</span>
+              <span class="card-description" id="pricing-description">
+                Des prestations claires, adaptées à vos envies.
+              </span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section about-section" id="a-propos" aria-labelledby="about-title">
+        <div class="section-grid">
+          <div class="section-heading">
+            <h2 id="about-title">Un moment pour vous, pensé dans les détails.</h2>
+          </div>
+          <div class="section-body">
+            <p>
+              Pose d’Aura propose des manucures soignées, élégantes et personnalisées
+              autour de Colmar. Chaque pose est réalisée avec attention, dans un
+              esprit raffiné, féminin et moderne. Que ce soit à domicile ou dans
+              un cadre privé, l’objectif reste le même : offrir une prestation
+              délicate, propre et adaptée à votre style.
+            </p>
+            <div class="about-notes" aria-label="Informations pratiques">
+              <span>À domicile</span>
+              <span>Cadre privé</span>
+              <span>Autour de Colmar</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="galerie" aria-labelledby="gallery-title">
+        <div class="section-header reveal">
+          <h2 id="gallery-title">Dernières réalisations</h2>
+          <p>Des poses élégantes, naturelles ou plus travaillées selon vos envies.</p>
+        </div>
+
+        <div class="gallery-grid" aria-label="Galerie de réalisations">
+          <!-- Les vrais médias sont dans assets/media/. Les SVG restent des fallbacks si un média manque. -->
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 01</small>
+              <strong>French naturelle</strong>
+            </span>
+            <img src="assets/media/photos/pose-01.jpg" data-fallback-src="assets/pose-1.svg" data-gallery-image alt="French naturelle Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 02</small>
+              <strong>Baby boomer rosé</strong>
+            </span>
+            <img src="assets/media/photos/pose-02.jpg" data-fallback-src="assets/pose-2.svg" data-gallery-image alt="Baby boomer rosé Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 03</small>
+              <strong>Gel naturel</strong>
+            </span>
+            <img class="gallery-crop-03" src="assets/media/photos/pose-03.jpg" data-fallback-src="assets/pose-3.svg" data-gallery-image alt="Pose gel naturelle Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 04</small>
+              <strong>Nude doux</strong>
+            </span>
+            <img src="assets/media/photos/pose-04.jpg" data-fallback-src="assets/pose-4.svg" data-gallery-image alt="Pose nude douce Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 05</small>
+              <strong>Nail art naturel</strong>
+            </span>
+            <img src="assets/media/photos/pose-05.jpg" data-fallback-src="assets/pose-5.svg" data-gallery-image alt="Gel sur ongles naturels avec nail art Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 06</small>
+              <strong>Nail art chic</strong>
+            </span>
+            <img src="assets/media/photos/pose-06.jpg" data-fallback-src="assets/pose-6.svg" data-gallery-image alt="Nail art chic Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 07</small>
+              <strong>Rose naturel</strong>
+            </span>
+            <img class="gallery-crop-07" src="assets/media/photos/pose-07.jpeg" data-fallback-src="assets/pose-1.svg" data-gallery-image alt="Pose rose naturelle Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 08</small>
+              <strong>Pop it</strong>
+            </span>
+            <img class="gallery-crop-08" src="assets/media/photos/pose-08.jpg" data-fallback-src="assets/pose-2.svg" data-gallery-image alt="Pose Pop it Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 09</small>
+              <strong>Nude glossy</strong>
+            </span>
+            <img class="gallery-crop-09" src="assets/media/photos/pose-09.jpeg" data-fallback-src="assets/pose-3.svg" data-gallery-image alt="Pose nude glossy Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 10</small>
+              <strong>Naturel raffiné</strong>
+            </span>
+            <img src="assets/media/photos/pose-10.jpeg" data-fallback-src="assets/pose-4.svg" data-gallery-image alt="Pose naturelle raffinée Pose d’Aura">
+          </article>
+          <article class="gallery-item reveal">
+            <span class="gallery-placeholder">
+              <small>Pose 11</small>
+              <strong>Capsules gel</strong>
+            </span>
+            <img src="assets/media/photos/pose-11.jpg" data-fallback-src="assets/pose-5.svg" data-gallery-image alt="Pose gel avec rallongement capsules Pose d’Aura">
+          </article>
+          <article class="gallery-item gallery-video reveal">
+            <span class="gallery-placeholder">
+              <small>Vidéo 01</small>
+              <strong>Pose en mouvement</strong>
+            </span>
+            <video controls preload="metadata" playsinline muted poster="assets/media/photos/pose-01.jpg" aria-label="Vidéo manucure Pose d’Aura">
+              <source src="assets/media/videos/pose-video-01.mp4" type="video/mp4">
+            </video>
+            <span class="video-badge" aria-hidden="true">Lecture</span>
+          </article>
+          <article class="gallery-item gallery-video reveal">
+            <span class="gallery-placeholder">
+              <small>Vidéo 02</small>
+              <strong>Détails baby boomer</strong>
+            </span>
+            <video controls preload="metadata" playsinline muted poster="assets/media/photos/pose-02.jpg" aria-label="Vidéo baby boomer Pose d’Aura">
+              <source src="assets/media/videos/pose-video-02.mp4" type="video/mp4">
+            </video>
+            <span class="video-badge" aria-hidden="true">Lecture</span>
+          </article>
+        </div>
+
+        <div class="section-action reveal">
+          <a class="button button-secondary" href="https://www.instagram.com/posed_auraa/" target="_blank" rel="noopener" data-instagram-link>
+            Voir plus sur Instagram
+          </a>
+        </div>
+      </section>
+
+      <section class="section pricing-section" id="tarifs" aria-labelledby="pricing-title">
+        <div class="section-header reveal">
+          <h2 id="pricing-title">Prestations &amp; tarifs</h2>
+          <p>Des tarifs indicatifs, à adapter selon la pose souhaitée.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <h3>Semi-permanent mains</h3>
+            <p>25 €</p>
+          </article>
+          <article class="price-card reveal">
+            <h3>Renforcement ongles naturels</h3>
+            <p>30 €</p>
+          </article>
+          <article class="price-card reveal">
+            <h3>Pose complète gel</h3>
+            <p>45 €</p>
+          </article>
+          <article class="price-card reveal">
+            <h3>Remplissage gel</h3>
+            <p>35 €</p>
+          </article>
+          <article class="price-card reveal">
+            <h3>Dépose + soin</h3>
+            <p>15 €</p>
+          </article>
+          <article class="price-card reveal">
+            <h3>French / Baby boomer</h3>
+            <p>+5 à +8 €</p>
+          </article>
+          <article class="price-card reveal">
+            <h3>Nail art</h3>
+            <p>+5 à +15 €</p>
+          </article>
+          <article class="price-card reveal">
+            <h3>Déplacement autour de Colmar</h3>
+            <p>à partir de 5 €</p>
+          </article>
+        </div>
+
+        <p class="pricing-note reveal">
+          Les tarifs sont donnés à titre indicatif et peuvent varier selon la
+          prestation souhaitée.
+        </p>
+      </section>
+
+      <section class="booking-section" id="reservation" aria-labelledby="booking-title">
+        <div class="booking-panel reveal">
+          <h2 id="booking-title">Prendre rendez-vous</h2>
+          <p>
+            Pour réserver un créneau, contactez Pose d’Aura directement sur
+            Instagram. Les disponibilités sont mises à jour régulièrement et les
+            rendez-vous sont confirmés par message.
+          </p>
+          <a class="button button-primary" href="https://www.instagram.com/posed_auraa/" target="_blank" rel="noopener" data-instagram-link>
+            Réserver sur Instagram
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="footer-brand" href="#accueil">Pose d’Aura</a>
+        <p>Manucure autour de Colmar</p>
+      </div>
+      <nav class="footer-links" aria-label="Navigation de pied de page">
+        <a href="https://www.instagram.com/posed_auraa/" target="_blank" rel="noopener" data-instagram-link>Instagram</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#reservation">Réservation</a>
+      </nav>
+      <p class="copyright">© 2026 Pose d’Aura. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
