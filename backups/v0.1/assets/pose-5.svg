@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Placeholder nail art chic Pose d'Aura">
+  <defs>
+    <radialGradient id="glow" cx="51%" cy="35%" r="58%">
+      <stop offset="0%" stop-color="#fffaf4" stop-opacity=".36"/>
+      <stop offset="55%" stop-color="#e1d8cf" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#0d0c0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#342d28"/>
+      <stop offset="48%" stop-color="#181411"/>
+      <stop offset="100%" stop-color="#0d0c0b"/>
+    </linearGradient>
+    <linearGradient id="nude" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7dfd0"/>
+      <stop offset="100%" stop-color="#cda994"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="450" cy="396" r="430" fill="url(#glow)"/>
+  <g transform="translate(240 210)">
+    <rect x="24" y="40" width="78" height="408" rx="39" fill="url(#nude)" transform="rotate(-8 63 244)"/>
+    <rect x="128" y="0" width="84" height="470" rx="42" fill="url(#nude)"/>
+    <rect x="238" y="44" width="78" height="410" rx="39" fill="url(#nude)" transform="rotate(8 277 249)"/>
+    <path d="M62 105c18 22 37 22 55 0" fill="none" stroke="#c7aa79" stroke-width="7" stroke-linecap="round"/>
+    <path d="M170 78l18 44 46-13-31 37 28 39-44-18-28 37 4-47-45-16 47-11z" fill="#c7aa79" opacity=".82"/>
+    <path d="M282 114c26 8 42 26 49 54" fill="none" stroke="#fffaf4" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="170" cy="540" r="112" fill="#d9b8a4"/>
+  </g>
+  <path d="M64 162h158" stroke="#e1d8cf" stroke-opacity=".45"/>
+  <text x="64" y="948" fill="#e1d8cf" font-family="Arial, sans-serif" font-size="24" letter-spacing="0">POSE 05</text>
+  <text x="64" y="1002" fill="#fffaf4" font-family="Georgia, serif" font-size="54" font-style="italic">Nail art chic</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Placeholder manucure nude lumineux Pose d'Aura">
+  <defs>
+    <radialGradient id="glow" cx="48%" cy="32%" r="58%">
+      <stop offset="0%" stop-color="#fffaf4" stop-opacity=".42"/>
+      <stop offset="52%" stop-color="#e1d8cf" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#11100f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a332d"/>
+      <stop offset="48%" stop-color="#1a1715"/>
+      <stop offset="100%" stop-color="#0d0c0b"/>
+    </linearGradient>
+    <linearGradient id="nail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7ee"/>
+      <stop offset="100%" stop-color="#d9c6b7"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="450" cy="390" r="430" fill="url(#glow)"/>
+  <path d="M220 196h460" stroke="#e1d8cf" stroke-opacity=".22"/>
+  <path d="M288 738c70-160 126-322 160-490 61 140 38 343-48 455-34 44-74 56-112 35z" fill="#d7bba9"/>
+  <path d="M367 315c28-5 57 12 62 40 8 43 1 92-18 128-30-24-56-76-44-168z" fill="url(#nail)"/>
+  <path d="M442 254c29-4 57 15 61 44 8 54 2 118-21 163-31-30-57-94-40-207z" fill="url(#nail)"/>
+  <path d="M522 314c28-2 54 18 56 46 5 50-6 101-30 137-27-30-43-91-26-183z" fill="url(#nail)"/>
+  <path d="M230 807h440" stroke="#c7aa79" stroke-opacity=".48"/>
+  <text x="64" y="948" fill="#e1d8cf" font-family="Arial, sans-serif" font-size="24" letter-spacing="0">POSE 01</text>
+  <text x="64" y="1002" fill="#fffaf4" font-family="Georgia, serif" font-size="54" font-style="italic">Nude lumineux</text>
+</svg>
